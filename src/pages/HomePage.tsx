@@ -1,3 +1,4 @@
+import { About } from "../components/About";
 import { Hero } from "../components/Hero";
 import { Projects } from "../components/Projects";
 
@@ -6,7 +7,7 @@ export function HomePage() {
     <div>
       <Hero />
       <Projects />
-      <section id="om-meg">her er om meg delen</section>
+      <About />
     </div>
   );
 }
