@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { projects } from "../data/projects";
+import { TechBadges } from "./TechBadges";
 
 export function Projects() {
   return (
@@ -24,9 +25,8 @@ export function Projects() {
             />
             <div className="md:w-1/2">
               <h3 className="font-cabinet text-6xl">{project.title}</h3>
-              <p className="font-general mt-2 max-w-sm">
-                {project.description}
-              </p>
+              <p className="font-general mt-2 max-w-sm">{project.tagline}</p>
+              <TechBadges tech={project.tech} />
             </div>
           </Link>
         ))}
