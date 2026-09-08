@@ -4,6 +4,8 @@ export const projects = [
     title: "Strikkemønster-editor",
     tagline: "Et rutenett-verktøy for å designe strikkediagram.",
     category: "Personlig prosjekt",
+    description:
+      "Jeg liker veldig godt å strikke, og ønsket meg en løsning hvor jeg kunne tegne opp egne mønstre til forskjellige strikkeprosjekter. I tillegg savnet jeg en enkel måte å følge med på progresjonen i mønsteret, og derfor laget jeg et program som gjør begge deler. Jeg laget derfor dette full-stack prosjektet som gjør det enkelt å lagre mønstere til senere.",
     tech: [
       "React",
       "TypeScript",
@@ -15,7 +17,7 @@ export const projects = [
     ],
     repoUrl: "tba",
     image: "/images/placeholder.svg",
-    video: "/videos/placeholder.mov",
+    video: "/videos/strikkeapp-demo.mp4",
     screenshots: [
       {
         image: "/images/placeholder.svg",
