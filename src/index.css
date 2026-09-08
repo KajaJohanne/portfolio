@@ -120,3 +120,7 @@ code {
   --font-cabinet: "Cabinet Grotesk", sans-serif;
   --font-general: "General Sans", sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
