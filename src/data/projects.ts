@@ -5,7 +5,7 @@ export const projects = [
     tagline: "Et rutenett-verktøy for å designe strikkediagram.",
     category: "Personlig prosjekt",
     description:
-      "Jeg liker veldig godt å strikke, og ønsket meg en løsning hvor jeg kunne tegne opp egne mønstre til forskjellige strikkeprosjekter. I tillegg savnet jeg en enkel måte å følge med på progresjonen i mønsteret, og derfor laget jeg et program som gjør begge deler. Jeg laget derfor dette full-stack prosjektet som gjør det enkelt å lagre mønstere til senere.",
+      "Jeg er stor strikkentusiast, og ønsket meg en løsning hvor jeg kunne tegne opp egne mønstre til forskjellige strikkeprosjekter. I tillegg savnet jeg en enkel måte å følge med på progresjonen i mønsteret, og derfor laget jeg dette full-stack prosjektet som gjør begge deler.",
     tech: [
       "React",
       "TypeScript",
@@ -15,18 +15,29 @@ export const projects = [
       "Prisma",
       "MySQL",
     ],
-    repoUrl: "tba",
-    image: "/images/placeholder.svg",
+    repoUrl: "",
+    image: "/images/knit-pattern-app/oppretteNyVott.png",
     video: "/videos/strikkeapp-demo.mp4",
     screenshots: [
       {
-        image: "/images/placeholder.svg",
+        image: "/images/knit-pattern-app/oversiktsside.png",
         caption:
-          "Selve rutenett-editoren, der hver rute representerer en maske. Fargevelgeren er bygget som en egen komponent.",
+          "Mønstrene lagres og hentes fra et eget API bygget med Express og Prisma, mot en MySQL database. Herfra kan jeg opprette nye mønstre eller åpne eksisterende.",
       },
       {
-        image: "/images/placeholder.svg",
-        caption: "Autolagring med debounce ..... ",
+        image: "/images/knit-pattern-app/oppretteNyVott.png",
+        caption:
+          "Mønstermalen til votten genereres med et rutenett der noen celler er blokkerte, altså ikke mulig å redigere. Dette brukes til å forme selve vott- og tommelfasongen. Tommelen hat et eget, separat rutenett. Bestemte farger representerer fellinger og er forklart ved siden av rutenettet.",
+      },
+      {
+        image: "/images/knit-pattern-app/egendefinertGrid.png",
+        caption:
+          "Det er også mulig å opprette et rutenett med selvvalgt størrelse, for tilfeller der jeg trenger et mønster til et større prosjekt.",
+      },
+      {
+        image: "/images/knit-pattern-app/strikkedeRader.png",
+        caption:
+          "Når mønsteret er lagret, stenges det for redigering for å hindre at feil skjer underveis i strikkingen. Mønsteret kan fortsatt redigeres senere. Det er også mulig å markere rader som ferdig strikket, slik at det blir enklere å følge progresjonen. ",
       },
     ],
   },

@@ -14,7 +14,7 @@ export function ProjectPage() {
     <section className="p-6 md:p-12 flex flex-col items-center gap-8 max-w-3xl mx-auto">
       <h1 className="font-cabinet text-5xl">{project.title}</h1>
       <TechBadges tech={project.tech} />
-      <p className="font-general max-w-md">{project.tagline}</p>
+      <p className="font-general max-w-md">{project.description}</p>
       
       {project.video && (
         <video 
