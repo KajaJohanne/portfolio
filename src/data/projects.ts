@@ -47,20 +47,54 @@ export const projects = [
     tagline:
       "Bachelorprosjekt i samarbeid med Statens vegvesen. Program for å opprette og håndtere tekstnøkler.",
     category: "Akademisk prosjekt",
-    image: "images/placeholder.svg",
-    tech: ["React", "TypeScript"],
-    repoUrl: "tba",
+    image: "images/tekstapp/tekstappOversikt.png",
+    description:
+      "Bachelorgruppen fikk i oppgave å lage en ny versjon av det interne verktøyet Tekstapp, som brukes for å opprette, strukturere og håndtere tekstnøkler for innhold på bokmål, nynorsk og engelsk. ",
+    roleDescription:
+      "Vi var fire studenter, og jeg hadde blant annet ansvar for utvikle flyten for opprettelse av nye applikasjoner. Løsningen er bygget i React og TypeScript, med lagring og autentisering via Firebase og Firestore.",
+
+    process: [
+      "Forstå dagens løsning",
+      "Definere oppgaven",
+      "Designsprint",
+      "Prototyping",
+      "Brukertesting",
+      "Utvikling",
+    ],
+    processDescription:
+      "Vi startet med å identifisere områder som kunne forbedres i dagens løsning. Dette dannet grunnlaget for å avgrense oppgaven og utvikle forslag til en ny løsning.",
+    tech: ["React", "TypeScript", "Firebase"],
+    repoUrl: "https://github.com/KajaJohanne/BAO304-Tekstapp",
     screenshots: [
       {
-        image: "/images/placeholder.svg",
+        image: "/images/tekstapp/tekstappFigmaApp.png",
         caption:
-          "Selve rutenett-editoren, der hver rute representerer en maske. Fargevelgeren er bygget som en egen komponent.",
+          "Figma-protoypen ble brukt til å utforske ideer og teste løsningen på ekte brukere før utvikling. Utsnittet viser del av opprettelsen av nye Applikasjoner. Denne flyten ble senere forenklet og justert under implementering.",
       },
       {
-        image: "/images/placeholder.svg",
-        caption: "Autolagring med debounce ..... ",
+        image: "/images/tekstapp/tekstappOversikt.png",
+        caption: "Eksisterende Applikasjoner hentes fra databasen og vises i en liste. Herfra kan man opprette ny applikasjon, navigere til listen over tekstnlkler, eller navigere inn i en spesifikk applikasjon."
+      }
+    ],
+    formSteps: [
+      {
+        image: "/images/tekstapp/opprettSteg1.png",
+        caption:
+          "Nye applikasjoner opprettes gjennom en trestegsprosess som benytter React Hook Form for blant annet enkel validering.",
+      },
+      {
+        image: "/images/tekstapp/opprettSteg2.png",
+        caption:
+          "Skjemaet validerer fortløpende og gir tilbakemelding dersom noe mangler, før man kan gå videre.",
+      },
+      {
+        image: "/images/tekstapp/opprettSteg3.png",
+        caption:
+          "Siste steg oppsummerer det som er fylt inn, før applikasjonen faktisk opprettes.",
       },
     ],
+    outcome: "Gjennom prosjektet fikk jeg praktisk erfaring med hele utviklingsløpet, fra brukerinnsikt og prototyping, til implementering i et team."
+
   },
   {
     id: "portfolio",
