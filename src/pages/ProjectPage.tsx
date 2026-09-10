@@ -30,7 +30,7 @@ export function ProjectPage() {
           loop
           muted
           playsInline
-          className="w-full rounded-sm"
+          className="w-full rounded-2xl"
         />
       )}
 

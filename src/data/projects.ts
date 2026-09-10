@@ -17,7 +17,7 @@ export const projects = [
     ],
     repoUrl: "",
     image: "/images/knit-pattern-app/oppretteNyVott.png",
-    video: "/videos/strikkeapp-demo.mp4",
+    video: "/videos/knit-pattern-appDEMO.mp4",
     screenshots: [
       {
         image: "/images/knit-pattern-app/oversiktsside.png",
@@ -73,8 +73,9 @@ export const projects = [
       },
       {
         image: "/images/tekstapp/tekstappOversikt.png",
-        caption: "Eksisterende Applikasjoner hentes fra databasen og vises i en liste. Herfra kan man opprette ny applikasjon, navigere til listen over tekstnlkler, eller navigere inn i en spesifikk applikasjon."
-      }
+        caption:
+          "Eksisterende Applikasjoner hentes fra databasen og vises i en liste. Herfra kan man opprette ny applikasjon, navigere til listen over tekstnlkler, eller navigere inn i en spesifikk applikasjon.",
+      },
     ],
     formSteps: [
       {
@@ -93,8 +94,8 @@ export const projects = [
           "Siste steg oppsummerer det som er fylt inn, før applikasjonen faktisk opprettes.",
       },
     ],
-    outcome: "Gjennom prosjektet fikk jeg praktisk erfaring med hele utviklingsløpet, fra brukerinnsikt og prototyping, til implementering i et team."
-
+    outcome:
+      "Gjennom prosjektet fikk jeg praktisk erfaring med hele utviklingsløpet, fra brukerinnsikt og prototyping, til implementering i et team.",
   },
   {
     id: "portfolio",
