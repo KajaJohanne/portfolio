@@ -1,7 +1,7 @@
 export function About() {
   return (
     <section id="om-meg" className="p-6 md:p-12 bg-blue/20">
-      <div className="mt-16 flex flex-col gap-10 md:flex-row md:items-center md:gap-16">
+      <div className="mt-16 flex flex-col-reverse gap-10 md:flex-row md:items-center md:gap-16">
         <img
           src="/images/kaja.jpeg"
           alt="Portrett av Kaja"
