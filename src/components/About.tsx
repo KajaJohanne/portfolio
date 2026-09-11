@@ -1,6 +1,6 @@
 export function About() {
   return (
-    <section id="om-meg" className="p-6 md:p-12">
+    <section id="om-meg" className="p-6 md:p-12 bg-blue/20">
       <div className="mt-16 flex flex-col gap-10 md:flex-row md:items-center md:gap-16">
         <img
           src="/images/kaja.jpeg"
@@ -11,24 +11,23 @@ export function About() {
           <h3 className="font-cabinet text-2xl">Om meg</h3>
 
           <p>
-            Jeg heter Kaja og er frontendutvikler med en bachelorgrad i
-            frontend- og mobilutvikling . Nå tar jeg en master i design av
-            tjenester, teknologi og samhandling ved NTNU.
+            Jeg er utdannet frontendutvikler og trives godt med å bygge og
+            utvikle digitale løsninger. Jeg synes det er spesielt gøy å jobbe
+            med frontend, å gjøre ideer og design om til fungerende
+            løsninger, og å finne måter som gjør en løsning enkel og god å
+            bruke.{" "}
           </p>
-
           <p>
-            Jeg trives med å jobbe i skjæringspunktet mellom teknologi, design
-            og mennesker. Jeg liker spesielt godt å jobbe med frontend, og er
-            nysgjerrig på hvordan løsningene oppleves for personen som skal
-            bruke dem. Masteren min gir meg derfor et bredere perspektiv på
-            utvikling, der jeg får kombinere den tekniske bakgrunnen min med
-            design og brukerforståelse.{" "}
+            Nå tar jeg en master i tjenestedesign ved NTNU for å få et bredere
+            perspektiv på utvikling, med mål om å kombinere den tekniske
+            bakgrunnen min med design og brukerforståelse.{" "}
           </p>
 
           <p>
             Før jeg begynte å studere teknologi, jobbet jeg som sykepleier. Det
             har lært meg mye om å samarbeide med ulike mennesker, kommunisere
-            tydelig og tilpasse meg forskjellige situasjoner.{" "}
+            tydelig, og tilpasse meg ulike situasjoner som raskt kan endre
+            seg.{" "}
           </p>
         </div>
       </div>

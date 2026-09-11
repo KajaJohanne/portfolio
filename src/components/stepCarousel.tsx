@@ -33,7 +33,7 @@ export function StepCarousel({ steps }: Props) {
         </p>
       </div>
 
-      <div className="w-full md:w-2/3 rounded-lg bg-neutral-100 p-6">
+      <div className="w-full md:w-2/3 rounded-lg bg-neutral-100 p-6 shadow-lg">
         <img
           src={step.image}
           alt={step.caption}
