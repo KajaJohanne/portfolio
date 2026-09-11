@@ -108,6 +108,6 @@ export const projects = [
       },
     ],
     outcome:
-      "Gjennom prosjektet fikk jeg praktisk erfaring med hele utviklingsløpet, fra brukerinnsikt og prototyping, til implementering i et team.",
+      "Løsningen er ikke ment som en ferdig produksjonsklar erstatning, men som et konseptbevis som viser hvordan en forbedret løsning kan se ut. Gjennom prosjektet fikk jeg praktisk erfaring med hele utviklingsløpet, fra brukerinnsikt og prototyping, til implementering i et team.",
   },
 ];
