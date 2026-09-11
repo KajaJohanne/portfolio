@@ -3,7 +3,7 @@ export function About() {
     <section id="om-meg" className="p-6 md:p-12 bg-blue/20">
       <div className="mt-16 flex flex-col-reverse gap-10 md:flex-row md:items-center md:gap-16">
         <img
-          src="/images/kaja.jpeg"
+          src="${import.meta.env.BASE_URL}/images/kaja.jpeg"
           alt="Portrett av Kaja"
           className="w-full max-w-sm object-cover md:w-96 rounded-r-4xl"
         />
@@ -13,9 +13,8 @@ export function About() {
           <p>
             Jeg er utdannet frontendutvikler og trives godt med å bygge og
             utvikle digitale løsninger. Jeg synes det er spesielt gøy å jobbe
-            med frontend, å gjøre ideer og design om til fungerende
-            løsninger, og å finne måter som gjør en løsning enkel og god å
-            bruke.{" "}
+            med frontend, å gjøre ideer og design om til fungerende løsninger,
+            og å finne måter som gjør en løsning enkel og god å bruke.{" "}
           </p>
           <p>
             Nå tar jeg en master i tjenestedesign ved NTNU for å få et bredere

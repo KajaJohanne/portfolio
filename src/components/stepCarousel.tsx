@@ -35,7 +35,7 @@ export function StepCarousel({ steps }: Props) {
 
       <div className="w-full md:w-2/3 rounded-lg bg-neutral-100 p-6 shadow-lg">
         <img
-          src={step.image}
+          src={`${import.meta.env.BASE_URL}${step.image.replace(/^\//, "")}`}
           alt={step.caption}
           className="w-full aspect-[18/10] rounded-lg object-cover"
         />
@@ -44,7 +44,7 @@ export function StepCarousel({ steps }: Props) {
             onClick={goToPrevious}
             disabled={isFirst}
             aria-label="Forrige steg"
-            className="h-9 w-9 items-center justify-center rounded-full bg-black/50 text-white opacity-60 transition hover:opacity-100 diabled:opacity-20 disabled:hover:opacity-20"
+            className="h-9 w-9 items-center justify-center rounded-full bg-black/50 text-white opacity-60 transition hover:opacity-100 disabled:opacity-20 disabled:hover:opacity-20"
           >
             ←
           </button>
