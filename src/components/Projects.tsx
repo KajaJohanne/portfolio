@@ -7,7 +7,7 @@ export function Projects() {
     <section id="prosjekter" className="p-6 bg-cream/30 md:p-12">
       <div className="flex items-center justify-center gap-4">
         <span className="h-px w-12 bg-coral" />
-        <h2 className="font-cabinet text-4xl">Mine prosjekter</h2>
+        <h2 className="font-cabinet text-2xl md:text-4xl">Mine prosjekter</h2>
 
         <span className="h-px w-12 bg-coral" />
       </div>
@@ -15,16 +15,16 @@ export function Projects() {
         Egne ideer og akademiske prosjekter
       </p>
 
-      <div className="mt-10 flex flex-col gap-32 md:gap-28 max-w-6xl mx-auto">
+      <div className="mt-10 flex flex-col gap-12 md:gap-28 max-w-6xl mx-auto">
         {projects.map((project, index) => {
           const content = (
             <>
-            <div className="w-full md:w-1/2 rounded-xl ">
-              <img
-                src={project.image}
-                alt={`Skjermbilde av ${project.title}`}
-                className="w-full aspect-video object-cover rounded-lg shadow-sm"
-              />
+              <div className="w-full md:w-1/2 rounded-xl ">
+                <img
+                  src={project.image}
+                  alt={`Skjermbilde av ${project.title}`}
+                  className="w-full aspect-video object-cover rounded-lg shadow-sm"
+                />
               </div>
               <div className="md:w-1/2">
                 <h3 className="font-cabinet text-3xl font-bold text-ink">
