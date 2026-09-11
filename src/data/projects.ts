@@ -9,6 +9,7 @@ export const projects = [
     tech: [
       "React",
       "TypeScript",
+      "TailWind CSS",
       "Vite",
       "Node.js",
       "Express",
@@ -27,7 +28,7 @@ export const projects = [
       {
         image: "/images/knit-pattern-app/oppretteNyVott.png",
         caption:
-          "Mønstermalen til votten genereres med et rutenett der noen celler er blokkerte, altså ikke mulig å redigere. Dette brukes til å forme selve vott- og tommelfasongen. Tommelen hat et eget, separat rutenett. Bestemte farger representerer fellinger og er forklart ved siden av rutenettet.",
+          "Mønstermalen til votten genereres med et rutenett der noen celler er blokkerte, altså ikke mulig å redigere. Dette brukes til å forme selve vott- og tommelfasongen. Tommelen har et eget, separat rutenett. Bestemte farger representerer fellinger og er forklart ved siden av rutenettet.",
       },
       {
         image: "/images/knit-pattern-app/egendefinertGrid.png",
@@ -40,6 +41,18 @@ export const projects = [
           "Når mønsteret er lagret, stenges det for redigering for å hindre at feil skjer underveis i strikkingen. Mønsteret kan fortsatt redigeres senere. Det er også mulig å markere rader som ferdig strikket, slik at det blir enklere å følge progresjonen. ",
       },
     ],
+  },
+  {
+    id: "portfolio",
+    title: "Portefølje nettside",
+    tagline: "Portefølje bygget med React, TypeScript og Tailwind.",
+    category: "Personlig prosjekt",
+    description:
+      "Porteføljen er bygget med gjenbrukbare komponenter for visning av skjermbilder og tilhørende informasjon, teknologi-tagger og en trinnvis karusell.",
+    image: "/images/herosection.png",
+    tech: ["React", "TypeScript", "Tailwind CSS", "Vite"],
+    repoUrl: "https://github.com/KajaJohanne/portfolio",
+    externalOnly: true,
   },
   {
     id: "tekstapp",
@@ -96,25 +109,5 @@ export const projects = [
     ],
     outcome:
       "Gjennom prosjektet fikk jeg praktisk erfaring med hele utviklingsløpet, fra brukerinnsikt og prototyping, til implementering i et team.",
-  },
-  {
-    id: "portfolio",
-    title: "Denne siden",
-    tagline: "Portefølje bygget med React, Tailwind og React Router",
-    category: "Personlig prosjekt",
-    image: "/images/placeholder.svg",
-    tech: ["React", "TypeScript", "Tailwind"],
-    repoUrl: "tba",
-    screenshots: [
-      {
-        image: "/images/placeholder.svg",
-        caption:
-          "Selve rutenett-editoren, der hver rute representerer en maske. Fargevelgeren er bygget som en egen komponent.",
-      },
-      {
-        image: "/images/placeholder.svg",
-        caption: "Autolagring med debounce ..... ",
-      },
-    ],
   },
 ];
