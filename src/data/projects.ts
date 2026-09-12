@@ -9,7 +9,7 @@ export const projects = [
     tech: [
       "React",
       "TypeScript",
-      "TailWind CSS",
+      "Tailwind CSS",
       "Vite",
       "Node.js",
       "Express",
