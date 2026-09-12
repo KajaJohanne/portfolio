@@ -16,7 +16,7 @@ export const projects = [
       "Prisma",
       "MySQL",
     ],
-    repoUrl: "",
+    repoUrl: "https://github.com/KajaJohanne/knit-pattern-app",
     image: "images/knit-pattern-app/oppretteNyVott.png",
     video: "videos/knit-pattern-appDEMO.mp4",
     screenshots: [
@@ -78,6 +78,7 @@ export const projects = [
       "Vi startet med å identifisere områder som kunne forbedres i dagens løsning. Dette dannet grunnlaget for å avgrense oppgaven og utvikle forslag til en ny løsning.",
     tech: ["React", "TypeScript", "Firebase"],
     repoUrl: "https://github.com/KajaJohanne/BAO304-Tekstapp",
+    liveUrl: "https://bao304tekstapp.netlify.app/",
     screenshots: [
       {
         image: "images/tekstapp/tekstappFigmaApp.png",
