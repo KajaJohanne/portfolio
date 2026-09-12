@@ -60,7 +60,7 @@ export const projects = [
     tagline:
       "Bachelorprosjekt i samarbeid med Statens vegvesen. Program for å opprette og håndtere tekstnøkler.",
     category: "Akademisk prosjekt",
-    image: "${import.meta.env.BASE_URL}images/tekstapp/tekstappOversikt.png",
+    image: "images/tekstapp/tekstappOversikt.png",
     description:
       "Bachelorgruppen fikk i oppgave å lage en ny versjon av det interne verktøyet Tekstapp, som brukes for å opprette, strukturere og håndtere tekstnøkler for innhold på bokmål, nynorsk og engelsk. ",
     roleDescription:
