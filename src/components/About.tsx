@@ -3,13 +3,13 @@ import { asset } from "../lib/assets";
 export function About() {
   return (
     <section id="om-meg" className="p-6 md:p-12 bg-blue/20">
-      <div className="mt-16 flex flex-col-reverse gap-10 md:flex-row md:items-center md:gap-16">
+      <div className="mt-16 flex max-w-5xl mx-auto flex-col-reverse gap-10 md:flex-row md:items-center md:gap-16">
         <img
           src={asset("images/kaja.jpeg")}
           alt="Portrett av Kaja"
           className="w-full max-w-sm object-cover md:w-96 rounded-r-4xl"
         />
-        <div className="flex flex-col gap-6 font-general text-lg leading-relaxed max-w-md md:max-w-4xl">
+        <div className="flex flex-col gap-6 font-general text-lg leading-relaxed max-w-md">
           <h3 className="font-cabinet text-2xl">Om meg</h3>
 
           <p>
