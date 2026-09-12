@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { projects } from "../data/projects";
 import { TechBadges } from "./TechBadges";
-import { asset } from "../lib/asset";
+import { asset } from "../lib/assets";
 
 export function Projects() {
   return (

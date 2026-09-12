@@ -1,4 +1,4 @@
-import { asset } from "../lib/asset";
+import { asset } from "../lib/assets";
 
 export function About() {
   return (
