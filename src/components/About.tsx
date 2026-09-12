@@ -1,9 +1,11 @@
+import { asset } from "../lib/asset";
+
 export function About() {
   return (
     <section id="om-meg" className="p-6 md:p-12 bg-blue/20">
       <div className="mt-16 flex flex-col-reverse gap-10 md:flex-row md:items-center md:gap-16">
         <img
-          src="${import.meta.env.BASE_URL}/images/kaja.jpeg"
+          src={asset("images/kaja.jpeg")}
           alt="Portrett av Kaja"
           className="w-full max-w-sm object-cover md:w-96 rounded-r-4xl"
         />

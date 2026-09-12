@@ -4,6 +4,7 @@ import { TechBadges } from "../components/TechBadges";
 import { ScreenshotBlock } from "../components/ScreenshotBlock";
 import { StepCarousel } from "../components/stepCarousel";
 import { FiArrowUpRight } from "react-icons/fi";
+import { asset } from "../lib/assets";
 
 export function ProjectPage() {
   const { id } = useParams();
@@ -39,7 +40,7 @@ export function ProjectPage() {
         {/* Video */}
         {project.video && (
           <video
-            src={project.video}
+            src={asset(project.video)}
             autoPlay
             loop
             muted
@@ -79,7 +80,7 @@ export function ProjectPage() {
         {/* Bilder */}
         <div className="w-full flex flex-col gap-32 md:gap-40">
           {project.screenshots?.map((shot, index) => (
-            <ScreenshotBlock key={shot.image} {...shot} index={index} />
+            <ScreenshotBlock key={asset(shot.image)} {...shot} index={index} />
           ))}
         </div>
 

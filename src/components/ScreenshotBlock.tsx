@@ -1,3 +1,5 @@
+import { asset } from "../lib/assets";
+
 type Props = {
   image: string;
   caption: string;
@@ -17,7 +19,7 @@ export function ScreenshotBlock({ image, caption, index }: Props) {
       </div>
 
       <img
-        src={image}
+        src={asset(image)}
         alt={caption}
         className="w-full md:w-2/3 shadow-lg rounded-2xl"
       />

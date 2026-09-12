@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { projects } from "../data/projects";
 import { TechBadges } from "./TechBadges";
+import { asset } from "../lib/asset";
 
 export function Projects() {
   return (
@@ -21,7 +22,7 @@ export function Projects() {
             <>
               <div className="w-full md:w-1/2 rounded-xl ">
                 <img
-                  src={project.image}
+                  src={asset(project.image)}
                   alt={`Skjermbilde av ${project.title}`}
                   className="w-full aspect-video object-cover rounded-lg shadow-sm"
                 />

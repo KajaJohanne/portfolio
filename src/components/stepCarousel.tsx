@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { asset } from "../lib/assets";
 
 type Step = {
   image: string;
@@ -35,7 +36,7 @@ export function StepCarousel({ steps }: Props) {
 
       <div className="w-full md:w-2/3 rounded-lg bg-neutral-100 p-6 shadow-lg">
         <img
-          src={`${import.meta.env.BASE_URL}${step.image.replace(/^\//, "")}`}
+          src={asset(step.image)}
           alt={step.caption}
           className="w-full aspect-[18/10] rounded-lg object-cover"
         />
