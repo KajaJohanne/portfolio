@@ -16,7 +16,11 @@ export function ScreenshotBlock({ image, caption, index }: Props) {
         <p className="font-general text-ink-muted leading-relaxed">{caption}</p>
       </div>
 
-      <img src={image} alt={caption} className="w-full md:w-2/3 shadow-lg rounded-2xl" />
+      <img
+        src={image}
+        alt={caption}
+        className="w-full md:w-2/3 shadow-lg rounded-2xl"
+      />
     </div>
   );
 }
